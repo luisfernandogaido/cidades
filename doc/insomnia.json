@@ -1,0 +1,78 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-05-24T19:09:50.622Z",
+	"__export_source": "insomnia.desktop.app:v5.16.4",
+	"resources": [
+		{
+			"_id": "wrk_d61b8fb2b7d245d783ea67d0fcccc140",
+			"created": 1527185490076,
+			"description": "",
+			"modified": 1527185490076,
+			"name": "municipios",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_67c7de06745f4e5e81063d72ff87b4d6",
+			"color": null,
+			"created": 1527185490580,
+			"data": {},
+			"isPrivate": false,
+			"modified": 1527185490580,
+			"name": "New Environment",
+			"parentId": "wrk_d61b8fb2b7d245d783ea67d0fcccc140",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_83ba9aa09b76458e9ffa90d876d72506",
+			"cookies": [],
+			"created": 1527185490593,
+			"modified": 1527185490593,
+			"name": "Default Jar",
+			"parentId": "wrk_d61b8fb2b7d245d783ea67d0fcccc140",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "req_891fa6151b224ef5a753a9c258cea8ed",
+			"authentication": {},
+			"body": {},
+			"created": 1527185675515,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1527185675515,
+			"method": "GET",
+			"modified": 1527188188317,
+			"name": "municipios",
+			"parameters": [
+				{
+					"id": "pair_5ec10aa335ac495dbd008447f4ce7699",
+					"name": "search",
+					"value": "barra bonita"
+				}
+			],
+			"parentId": "wrk_d61b8fb2b7d245d783ea67d0fcccc140",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ urlbase  }}/municipios",
+			"_type": "request"
+		},
+		{
+			"_id": "env_a1d927c7861044c69756b04c8bcca3de",
+			"color": null,
+			"created": 1527185496737,
+			"data": {
+				"urlbase": "http://localhost:4002"
+			},
+			"isPrivate": false,
+			"modified": 1527185524765,
+			"name": "dev",
+			"parentId": "env_67c7de06745f4e5e81063d72ff87b4d6",
+			"_type": "environment"
+		}
+	]
+}
