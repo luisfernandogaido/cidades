@@ -1,0 +1,13 @@
+[Unit]
+Description=Pesquisa de municípios de acordo com IBGE
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/var/www/html/municipios.gaido.net.br/cidades
+WorkingDirectory=/var/www/html/municipios.gaido.net.br
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
