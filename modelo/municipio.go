@@ -7,13 +7,12 @@ import (
 )
 
 type Municipio struct {
-	Codigo       string
-	Uf           string
-	CodUf        string
-	CodMunicipio string
-	Nome         string
-	Populacao    int
-	Indice       string
+	Codigo       string `json:"codigo"`
+	CodUf        string `json:"cod_uf"`
+	CodMunicipio string `json:"cod_municipio"`
+	Nome         string `json:"nome"`
+	Populacao    int    `json:"populacao"`
+	Indice       string `json:"indice"`
 }
 
 var (
