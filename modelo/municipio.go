@@ -8,6 +8,7 @@ import (
 
 type Municipio struct {
 	Codigo       string `json:"codigo"`
+	Uf           string `json:"uf"`
 	CodUf        string `json:"cod_uf"`
 	CodMunicipio string `json:"cod_municipio"`
 	Nome         string `json:"nome"`
