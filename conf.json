@@ -1,0 +1,4 @@
+{
+  "dsn": "root:Semaver13@tcp(127.0.0.1:3306)/municipios?multiStatements=true&parseTime=true&loc=America%2FSao_Paulo",
+  "porta": "127.0.0.1:4002"
+}
